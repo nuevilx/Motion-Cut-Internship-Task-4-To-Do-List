@@ -1,0 +1,47 @@
+Nuevy To-Do List
+
+Description:
+The Nuevy To-Do List project is a web application designed to help users manage their tasks effectively. The application allows users to add, edit, delete, mark as completed or uncompleted, and view tasks in a visually appealing and user-friendly interface.
+
+Features Implemented:
+
+Task Management:
+
+Users can add new tasks by entering a task description in the input field and clicking the "Add Task" button.
+Tasks are displayed in a list format, showing the task description, date and time of creation, and options to edit, delete, and mark as completed or uncompleted.
+Local Storage:
+
+Tasks are stored locally using the browser's local storage, ensuring that tasks persist even if the user closes the browser or refreshes the page.
+The application retrieves tasks from local storage on page load, providing a seamless and continuous user experience.
+User Interface:
+
+The user interface is designed to be clean, intuitive, and responsive, offering a seamless experience across different devices and screen sizes.
+Each task has a checkbox for marking it as completed or uncompleted, and completed tasks have a distinctive visual style with a light blue background and a line-through text.
+Task Interaction:
+
+Users can edit a task by clicking the "Edit" button, which opens a prompt to modify the task description.
+The "Delete" button allows users to remove a task after confirming the deletion through a confirmation dialog.
+Tasks can be marked as completed or uncompleted by toggling the checkbox next to each task.
+Testing:
+
+The application has been thoroughly tested to ensure that all core functionalities work as expected.
+Testing includes adding tasks, editing tasks, deleting tasks, marking tasks as completed or uncompleted, and verifying the persistence of tasks through local storage.
+Implementation Details:
+
+HTML/CSS:
+
+The HTML structure provides a foundation for the page layout.
+CSS styles are applied to create an aesthetically pleasing and responsive design.
+JavaScript:
+
+The core functionalities are implemented using JavaScript.
+Event listeners are employed to capture user actions, such as adding, editing, and deleting tasks.
+Local storage is utilized to store and retrieve tasks.
+Challenges Faced and Solutions:
+
+DOMTokenList Error:
+Initially, an error related to adding an empty class to an element was encountered.
+The code was modified to add the "completed" class only when the task is completed, resolving the issue.
+Conclusion:
+
+The Nuevy To-Do List project successfully implements a feature-rich to-do list application with a focus on user experience, data persistence, and clean design. The application empowers users to manage their tasks efficiently and provides a solid foundation for future enhancements and improvements. The development process involved overcoming challenges, implementing best practices, and delivering a functional and user-friendly solution.
